@@ -1,0 +1,221 @@
+body {
+    background-color: #fbfbfb;
+  }
+  @media (min-width: 991.98px) {
+    main {
+      padding-left: 240px;
+     
+    }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #2c3b41;
+    color: white;
+    padding: 10px 15px;
+    padding-left: 60px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+  .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  .fontcol{
+    color: #aaa9a9;
+  }
+  .list-group-item{
+    border-color: rgb(78, 78, 78);
+   
+  }
+  .linkactive{
+    color: #ffff;
+    font-size: 18px;
+  
+    font-weight: 500;
+   
+  }
+  .list-group-item:hover{
+    background-color:#212c30;
+  }
+
+
+
+  /* content area */
+  @media (min-width: 991.98px) {
+  .p6{
+    padding: 70px;
+    padding-left: 280px;
+    padding-top: 0;
+  }
+  .p7{
+    padding: 70px;
+    padding-left: 180px;
+    padding-top: 0;
+  }
+}
+.colordiv{
+    width: 250px;
+    height: 170px;
+    opacity: 0.8;
+    
+    
+}
+.colblue{
+    background-color: #00c0ef;
+}
+.colbrown{
+    background-color: 
+    #dd4b39;
+}
+.colgreen{
+    background-color: #00a65a;
+}
+.bg-lightdark{
+    background-color: 
+    #2c3b41;
+}
+.imgclas{
+  opacity: 0.2;
+  float: right;
+  top: -10px;
+  position: relative;
+}
+.fontin{
+  font-size: 20px;
+  color: #ffff;
+  padding-left: 20px;
+  display: block;
+  top: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.fontinhead{
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffff;
+  padding-left: 20px;
+  top: 60px;
+  position: relative;
+}
+.loginbtn{
+  border-radius: 100%;
+  background-color: #212c30;
+}
+.mainhead{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  justify-content: center;
+  color:#2c3b41;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+.logintxt{
+  color: #212c30;
+  font-weight: 500;
+  float: right;
+  position: relative;
+  left: 400px;
+}
+
+/* Login */
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+  .btn-big{
+    width: 200px;
+  }
+  .btn-big:hover{
+    background-color:#4d6169 ;
+  }
+  .bg-sec{
+    background-color: #eaf3f7;
+  }
+  ::placeholder{
+    font-size: 12px;
+    color: #2c3b41;
+  }
+ .plogin{
+  color: rgb(112, 110, 110);
+  font-size: 14px;
+ }
+
+ /* Leave Application */
+ .intro {
+  height: 100%;
+}
+.select-md{
+  height: 40px;
+  width: 250px;
+}
+select{
+  border-color: #e2e5e6;
+}
+
+
